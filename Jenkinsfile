@@ -38,7 +38,7 @@ node{
    sh 'docker run -d -p 8090:8080 --name tomcattest samnsh/myweb:0.0.2' 
    }
 }
-}
+
 
 
 
