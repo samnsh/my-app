@@ -33,15 +33,16 @@
 	
 	</dependencies>
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-snapshots/</url>
-		 </snapshotRepository>
+		 <Repository>
+		    <id>central</id>
+	            <name>ip-172-31-26-210-releases</name>		 
+		    <url>http://3.128.18.77:8081/artifactory/maven-libs-release-local/</url>
+		 </Repository>
 		
-		<repository>
-		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
-		</repository>
+		<snapshotrepository>
+		    <id>central</id>
+		    <url>http://3.128.18.77:8081/artifactory/maven-libs-release-local/</url>
+		</snapshotrepository>
   	</distributionManagement>
 	
 <build>
